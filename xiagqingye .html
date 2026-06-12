@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>沟帮子熏鸡 商品详情页</title>
+    <!-- 引入独立CSS文件 -->
+    <link rel="stylesheet"  href="xiangqingye.css">
+</head>
+<body>
+    <!-- 商品图集模块 -->
+    <div class="gallery-section">
+        <div class="gallery-header">
+            <div class="shop-logo">沟帮子</div>
+            <div class="shop-info">
+                <div class="shop-name">沟帮子旗舰店</div>
+                <div class="shop-meta">
+                    <span>★★★★★ 4.9</span>
+                    <span>88VIP好评率96%</span>
+                    <span>及时发货率99%</span>
+                </div>
+            </div>
+            <div style="margin-left:auto; display:flex; gap:20px;">
+                <span style="font-size:24px;">客服</span>
+                <span style="font-size:24px;">购物车</span>
+            </div>
+        </div>
+        <div class="gallery-main">
+            <div class="gallery-big-img">
+                <div style="color:#999;">主商品大图（熏鸡实拍）</div>
+                <div class="feature-tags">
+                    <div class="feature-tag">
+                        <h4>白糖熏制</h4>
+                        <div class="feature-icon">工艺图标</div>
+                        <p>延续传统工艺<br>绵白糖蜜炙熏烤</p>
+                    </div>
+                    <div class="feature-tag">
+                        <h4>四代传承老汤</h4>
+                        <div class="feature-icon">老汤图标</div>
+                        <p>古法煨制<br>薪火相传</p>
+                    </div>
+                    <div class="feature-tag">
+                        <h4>甄选配料</h4>
+                        <div class="feature-icon">配料图标</div>
+                        <p>搭配40余味配料<br>十余道精细工序</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-thumbs">
+            <div class="thumb-item active">主图</div>
+            <div class="thumb-item">细节图1</div>
+            <div class="thumb-item">细节图2</div>
+            <div class="thumb-item">工艺图</div>
+            <div class="thumb-item">参数图</div>
+        </div>
+        <div class="gallery-footer">
+            <span class="active">图集</span>
+            <span>参数</span>
+        </div>
+    </div>
+
+    <!-- 顶部商品信息栏 -->
+    <div class="product-header">
+        <div class="product-title">沟帮子熏鸡550g中华老字号正宗尹家现做现发顺丰包邮</div>
+        <div class="product-meta">
+            <span>已售 6000+</span>
+            <span>可开发票</span>
+            <span>多人评价"味道不错"</span>
+            <span>回头客408人</span>
+            <span>超1千人加购</span>
+        </div>
+        <div class="price-area">
+            <span class="current-price">¥39.9</span>
+            <span class="original-price">¥47</span>
+            <span class="discount-tag">官方立减15%省7.1元</span>
+        </div>
+        <div class="delivery-info">
+            <span>预计明天发货，后天18点前送达</span>
+            <span>快递: 免运费</span>
+            <span>辽宁锦州 至 沧州市运河区</span>
+        </div>
+        <div class="service-tags">
+            <span>坏单包退</span>
+            <span>极速退款</span>
+            <span>假一赔四</span>
+            <span>不支持7天无理由退换</span>
+        </div>
+        <div class="spec-area">
+            <div class="spec-title">商品规格</div>
+            <div class="spec-tag" id="specTag">熏鸡550g</div>
+        </div>
+        <div class="quantity-select">
+            <span style="font-size:32px;">数量</span>
+            <button class="quantity-btn" id="minusBtn">-</button>
+            <input type="text" class="quantity-input" id="quantityInput" value="1" readonly>
+            <button class="quantity-btn" id="plusBtn">+</button>
+            <span style="font-size:32px;">有货</span>
+        </div>
+    </div>
+
+    <!-- 参数信息模块 -->
+    <div class="param-section section-base">
+        <div class="section-title">参数信息</div>
+        <div class="param-grid-top">
+            <div class="param-item">
+                <div class="param-value">889mg/100g</div>
+                <div class="param-label">钠</div>
+            </div>
+            <div class="param-item">
+                <div class="param-value">中国大陆</div>
+                <div class="param-label">产地</div>
+            </div>
+            <div class="param-item">
+                <div class="param-value">沟帮子</div>
+                <div class="param-label">品牌</div>
+            </div>
+            <div class="param-item">
+                <div class="param-value">12.5g/100g</div>
+                <div class="param-label">脂肪</div>
+            </div>
+            <div class="param-item">
+                <div class="param-value">包装</div>
+                <div class="param-label">包装方式</div>
+            </div>
+            <div class="param-item">
+                <div class="param-value">25.8g/100g</div>
+                <div class="param-label">蛋白质</div>
+            </div>
+        </div>
+        <div class="param-list">
+            <span>省份</span><span>辽宁省</span>
+            <span>城市</span><span>锦州市</span>
+            <span>生产许可证号</span><span>SC10421070001020</span>
+            <span>厂名</span><span>辽宁沟帮子百年熏宗食品有限公司</span>
+            <span>厂址</span><span>辽宁省锦州市北镇市沟帮子铁南社区906-40-794号</span>
+            <span>厂家联系方式</span><span>4001115558</span>
+            <span>储藏方法</span><span>冷藏</span>
+            <span>保质期</span><span>7天</span>
+        </div>
+    </div>
+
+    <!-- 活动banner模块 -->
+    <div class="banner-section">
+        <div class="banner-top">
+            <div class="banner-title">熏宗礼遇 好礼不停</div>
+            <div class="banner-subtitle">官方立减15% <span style="font-size:16px; margin-left:20px;">上不封顶 点击进入></span></div>
+        </div>
+        <div class="gifts-grid">
+            <div class="gift-item">
+                <div class="gift-img">熏鸡骨架图</div>
+                <div class="gift-condition">实付满98赠送</div>
+                <div class="gift-name">熏鸡骨架500g×1袋</div>
+            </div>
+            <div class="gift-item">
+                <div class="gift-img">香熏鸡翅尖图</div>
+                <div class="gift-condition">实付满158赠送</div>
+                <div class="gift-name">香熏鸡翅尖160g×1袋</div>
+            </div>
+            <div class="gift-item">
+                <div class="gift-img">熏鸡公图</div>
+                <div class="gift-condition">实付满298赠送</div>
+                <div class="gift-name">熏鸡公600g×1袋</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 积分优惠券模块 -->
+    <div class="coupon-section section-base">
+        <div class="coupon-grid">
+            <div class="coupon-item">
+                <div class="coupon-title">积分兑券</div>
+                <div class="coupon-value">¥5</div>
+                <div class="coupon-desc">无门槛优惠券<br>49积分兑换</div>
+            </div>
+            <div class="coupon-item">
+                <div class="coupon-title">积分兑券</div>
+                <div class="coupon-value">¥10</div>
+                <div class="coupon-desc">无门槛优惠券<br>99积分兑换</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 品牌介绍模块 -->
+    <div class="brand-section">
+        <div class="brand-name">沟帮子</div>
+        <div class="brand-sub">—始创于1899—</div>
+        <div class="brand-title">百年沟帮子熏鸡</div>
+        <div class="brand-tag">中国“四大名鸡”之一</div>
+    </div>
+
+    <!-- 古法工艺模块 -->
+    <div class="craft-section">
+        <div class="craft-main-title">传承经典古法技艺</div>
+        <div class="craft-subtitle">吃的就是这个味</div>
+        <div class="craft-grid">
+            <div class="craft-item">
+                <h3>传承老汤</h3>
+                <p>四代传承<br>古法煨制<br>汤比金贵</p>
+                <div class="craft-img">老汤示意图</div>
+            </div>
+            <div class="craft-item">
+                <h3>白糖熏制</h3>
+                <p>延续传统工艺<br>绵白糖熏制<br>色泽金黄<br>鲜香浓郁</p>
+                <div class="craft-img">熏制示意图</div>
+            </div>
+            <div class="craft-item">
+                <h3>甄选配料</h3>
+                <p>十余道精细工序<br>四十余种甄选配料</p>
+                <div class="craft-img">配料示意图</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 产品展示模块 -->
+    <div class="show-section">
+        <div class="show-item">
+            <div class="show-text">
+                <h3>身披黄金甲</h3>
+                <p>绵白糖熏出金黄色泽，<br>“感性”的精美造型<br>一眼便已垂涎</p>
+            </div>
+        </div>
+        <div class="show-item">
+            <div class="show-text">
+                <h3>冒着香气儿</h3>
+                <p>熏香沁入每一寸肌理<br>开袋即熏香四溢<br>齿间回味悠长</p>
+            </div>
+        </div>
+        <div class="show-item">
+            <div class="show-text">
+                <h3>方念少时味</h3>
+                <p>依旧紧实细嫩有弹性<br>烂而连丝，丝丝入味</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 食材管控模块 -->
+    <div class="material-section">
+        <div class="material-main-title">精良食材全程严控</div>
+        <div class="material-subtitle">尽情享受的放心体验</div>
+        <div class="process-tags">
+            <span class="process-tag">甄选</span>
+            <span class="process-tag">检疫</span>
+            <span class="process-tag">宰杀</span>
+            <span class="process-tag">整形</span>
+            <span class="process-tag">熬煮</span>
+            <span class="process-tag">熏制</span>
+        </div>
+        <div class="material-img">散养鸡示意图</div>
+        <div class="check-grid">
+            <div class="check-img">熏制过程示意图</div>
+            <div class="check-text">
+                <h3>检</h3>
+                <p>层层严控<br>配备防伪环</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 产品信息模块 -->
+    <div class="info-section">
+        <div class="info-main-title">产品信息尽在掌握</div>
+        <div class="info-subtitle">“沟帮子”您贴心的选择</div>
+        <div class="info-grid">
+            <div>产品名称：沟帮子熏鸡</div>
+            <div>产品规格：550g</div>
+            <div>保质期：7天</div>
+            <div>储存方法：冷藏保存</div>
+            <div>食用方法：开袋即食</div>
+            <div>产品产地：辽宁·锦州</div>
+        </div>
+        <div class="info-notes">
+            <p>1、本品为鲜熏品，当天熏制当天发货。冷藏保质期7天，收到货请尽快食用，不支持7天无理由退换货。</p>
+            <p>2、产品为塑封保鲜包装，个别订单因运输碰撞产生漏气现象，但不影响产品质量和口感，可放心食用。</p>
+        </div>
+        <div class="usage-grid">
+            <div class="usage-item">
+                <div class="usage-img">开袋即食图标</div>
+                <p>开袋即食</p>
+            </div>
+            <div class="usage-item">
+                <div class="usage-img">蒸煮食用图标</div>
+                <p>蒸煮食用</p>
+            </div>
+            <div class="usage-item">
+                <div class="usage-img">微波加热图标</div>
+                <p>微波加热</p>
+            </div>
+            <div class="usage-item">
+                <div class="usage-img">烹饪做菜图标</div>
+                <p>烹饪做菜</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 门店分布模块 -->
+    <div class="store-section">
+        <div class="store-main-title">全国分布<span>1000+</span>商超门店</div>
+        <div class="store-grid">
+            <div class="store-item">
+                <div class="store-img">
+                <img src="imges/11.jpg">线下门店图1</div>
+                <span class="store-tag">线下门店</span>
+            </div>
+            <div class="store-item">
+                <div class="store-img">
+                <img src="imges/12.jpg">线下门店图2</div>
+                <span class="store-tag">线下门店</span>
+            </div>
+            <div class="store-item">
+                <div class="store-img">
+                <img src="imges/14.jpg">线下门店图3</div>
+                <span class="store-tag">线下门店</span>
+            </div>
+            <div class="store-item">
+                <div class="store-img">线下门店图4</div>
+                <span class="store-tag">
+                <img src="imges/15.jpg">线下门店</span>
+            </div>
+            <div class="store-item">
+                <div class="store-img">
+                <img src="imges/13.jpg">线下门店图5</div>
+                <span class="store-tag">线下门店</span>
+            </div>
+            <div class="store-item">
+                <div class="store-img">商超门店图</div>
+                <span class="store-tag">
+                <img src="imges/10.jpg">商超门店</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 购买须知模块 -->
+    <div class="notice-section section-base">
+        <div class="section-title">购买须知</div>
+
+        <div class="notice-item">
+            <h4>关于发货</h4>
+            <p>本店不接受指定快递发货指定哦。我们会根据地址匹配合适的快递。付款后48小时内发货（除节假日大促），新疆西藏等偏远地区不发货，详情请咨询客服</p>
+        </div>
+        <div class="notice-item">
+            <h4>关于地址</h4>
+            <p>由于买家留言收货地址、无法联系到收货人、擅自更改派送时间或派送地址发生延迟收货而导致产品腐烂的，不在我们的理赔范围内。</p>
+        </div>
+        <div class="notice-item">
+            <h4>关于发票</h4>
+            <p>请需要发票的客户，在拍下商品时留言或联系客服，备注发票抬头（公司或个人）等信息。</p>
+        </div>
+        <div class="notice-item">
+            <h4>坏单赔偿</h4>
+            <p>收到货后发现（错发、漏发、变质）等情况请拍照并在24小时内联系客服处理。买家收货信息错误、擅自更改派送时间或地址而延迟收货导致产品变质，将不予理赔。</p>
+        </div>
+    </div>
+
+    <!-- 价格说明模块 -->
+    <div class="price-note-section section-base">
+        <div class="price-note-title">价格说明：</div>
+        <div class="price-note-item">
+            <h4>被比较价格</h4>
+            <p>商品的专柜价、吊牌价、厂家建议零售价、厂商指导价、品牌供应商提供的指导价、商家在后台设置的一口价、减价（折价）前的基准价或该商品曾经展示过的销售价等。该价格仅供您在购买时参考。</p>
+        </div>
+        <div class="price-note-item">
+            <h4>标价/销售价</h4>
+            <p>商品的实时标价。具体成交价格根据商品参加活动，或会员使用优惠券、积分等发生变化，最终以订单结算页价格为准。</p>
+        </div>
+        <div class="price-note-item">
+            <p>商家详情页所展示的可优惠金额是根据用户当前可使用的优惠券、满减、立减，可参与的特定活动（如多件多折、限时秒杀）、红包（含消费券）、淘金币抵扣等四舍五入计算得出，优惠获取及使用条件等详见活动页面及相关规则（如有），实际价格以结算页面展示为准。</p>
+        </div>
+    </div>
+
+    <script>
+        // 数量选择交互
+        const minusBtn = document.getElementById('minusBtn');
+        const plusBtn = document.getElementById('plusBtn');
+        const quantityInput = document.getElementById('quantityInput');
+        let quantity = 1;
+
+        minusBtn.addEventListener('click', function() {
+            if (quantity > 1) {
+                quantity--;
+                quantityInput.value = quantity;
+            }
+        });
+
+        plusBtn.addEventListener('click', function() {
+            quantity++;
+            quantityInput.value = quantity;
+        });
+
+        // 规格标签点击效果
+        const specTag = document.getElementById('specTag');
+        specTag.addEventListener('click', function() {
+            this.style.backgroundColor = '#ff4400';
+            this.style.color = '#fff';
+        });
+
+        // 图集缩略图点击效果
+        const thumbItems = document.querySelectorAll('.thumb-item');
+        thumbItems.forEach(item => {
+            item.addEventListener('click', function() {
+                thumbItems.forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
